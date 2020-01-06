@@ -3,7 +3,7 @@ var app = express();
 
 // Respondemos con hola mundo para todo lo que pegue en el root
 app.get('/', (req, res) => {
-    res.send('heya World!');
+    res.send('heyay World!');
 });
 
 app.listen(3000);
