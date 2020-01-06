@@ -3,6 +3,6 @@ var app = require('../index');
 
 describe('GET /', function() {
     it('respond with hey World!', function(done) {
-        request(app).get('/').expect('hey World!', done);
+        request(app).get('/').expect('heya World!', done);
     });
 });
