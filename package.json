@@ -1,0 +1,26 @@
+{
+  "name": "jenkins-ci_cd",
+  "version": "1.0.0",
+  "description": "*Testing Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaktorius/jenkins-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaktorius/jenkins-test/issues"
+  },
+  "homepage": "https://github.com/Zaktorius/jenkins-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
